@@ -54,7 +54,7 @@ app.post('/failure', (req, res) => {
     res.sendFile(__dirname + '/signup.html');
 })
 
-app.listen(process.env.PORT || 3000git, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('server running at port 3000');
 });
 
